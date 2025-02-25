@@ -41,9 +41,9 @@
         #div5 {animation-timing-function: ease-in-out;}
         #div6 {animation-timing-function: linear;}
         @keyframes beweging {
-        0% {left: 40%}
-        50% {left: 45%}
-        100% {left: 40%}
+        0% {left: 35%}
+        50% {left: 40%}
+        100% {left: 35%}
         }
 
         .navbar-brand {
