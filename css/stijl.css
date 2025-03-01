@@ -1,4 +1,4 @@
-    body{ background: #b92b27;  /* fallback for old browsers */
+body{ background: #b92b27;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
@@ -25,14 +25,8 @@
     p{color: rgb(238, 238, 238)}
 
     section {
-        width: 80px;
-        height: 40px;
-        background-color: #b92b27;
-        color: rgb(238, 238, 238);
-        font-size: 10;
-        border-radius: 5px;
         position: relative;
-        animation: beweging 0.4s infinite;
+        animation: beweging 0.45s infinite;
         }
         #div1 {animation-timing-function: ease;}
         #div2 {animation-timing-function: linear;}
@@ -48,10 +42,14 @@
 
         .navbar-brand {
             position: relative;
-            animation: beweging2 1s infinite;
+            animation: beweging2 0,7s infinite;
             }
             @keyframes beweging2 {
             0% {left: 0px;}
             50% {left: 5px;}
             100% {left: 0px;}
+            }
+        
+            img{
+                border-radius: 30px;
             }
