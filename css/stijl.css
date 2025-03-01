@@ -43,10 +43,10 @@ section {
             color: #b92b27;
             font-weight: bold;
             position: relative;
-            animation: beweging2 1s infinite;
+            animation: beweging2 0.8s infinite;
             }
             @keyframes beweging2 {
             0% {left: 0px;}
-            50% {left: 7px;}
+            50% {left: 5px;}
             100% {left: 0px;}
             }
