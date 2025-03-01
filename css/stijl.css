@@ -46,10 +46,10 @@ body{ background: #b92b27;  /* fallback for old browsers */
             }
             @keyframes beweging2 {
             0% {left: 0px;}
-            50% {left: 5px;}
+            50% {left: 7px;}
             100% {left: 0px;}
             }
         
             img{
-                border-radius: 38px;
+                border-radius: 40px;
             }
