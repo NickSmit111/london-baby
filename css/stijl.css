@@ -26,7 +26,7 @@ body{ background: #b92b27;  /* fallback for old browsers */
 
     section {
         position: relative;
-        animation: beweging 0.45s infinite;
+        animation: beweging 0.4s infinite;
         }
         #div1 {animation-timing-function: ease;}
         #div2 {animation-timing-function: linear;}
@@ -51,5 +51,5 @@ body{ background: #b92b27;  /* fallback for old browsers */
             }
         
             img{
-                border-radius: 30px;
+                border-radius: 38px;
             }
