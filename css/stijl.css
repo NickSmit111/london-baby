@@ -42,7 +42,7 @@ body{ background: #b92b27;  /* fallback for old browsers */
 
         .navbar-brand {
             position: relative;
-            animation: beweging2 0,7s infinite;
+            animation: beweging2 1s infinite;
             }
             @keyframes beweging2 {
             0% {left: 0px;}
