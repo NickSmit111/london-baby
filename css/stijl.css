@@ -3,28 +3,27 @@ body{ background: #b92b27;  /* fallback for old browsers */
     background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     }
-    nav{
+nav{
     min-height: 100px;
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
-    .navbar-brand{
-        color: #b92b27;
-        font-weight: bold;
-    }
 
-    .nav-link{
+img{ border-radius: 40px;
+            }
+
+.nav-link{
         color: rgb(2, 1, 70);
     }
     
-    .nav-link:active{
+.nav-link:active{
         color: rgb(133, 2, 2);
     }
 
-    p{color: rgb(238, 238, 238)}
+p{color: rgb(238, 238, 238)}
 
-    section {
+section {
         position: relative;
         animation: beweging 0.4s infinite;
         }
@@ -40,7 +39,9 @@ body{ background: #b92b27;  /* fallback for old browsers */
         100% {left: 35%}
         }
 
-        .navbar-brand {
+.navbar-brand {
+            color: #b92b27;
+            font-weight: bold;
             position: relative;
             animation: beweging2 1s infinite;
             }
@@ -48,8 +49,4 @@ body{ background: #b92b27;  /* fallback for old browsers */
             0% {left: 0px;}
             50% {left: 7px;}
             100% {left: 0px;}
-            }
-        
-            img{
-                border-radius: 40px;
             }
